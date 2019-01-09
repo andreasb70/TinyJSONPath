@@ -1,7 +1,8 @@
 # TinyJSONPath
 
 TinyJSONPath is a tiny, pragmatic implementation of JSONPath-like access to a JSON object.
-*It is no full implementation of the official JSONPath specifivation!*
+
+*It is no full implementation of the official JSONPath specification!*
 
 However, it offers enough functionality for the most common use-cases when reading small JSON files.
 
