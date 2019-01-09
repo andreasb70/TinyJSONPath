@@ -31,6 +31,7 @@
 		E11284F521E6645D002DF670 /* TinyJSONPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyJSONPath.swift; sourceTree = "<group>"; };
 		E11284F721E66558002DF670 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 		E11284F921E66CD8002DF670 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		E11284FA21E67613002DF670 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 		E11284ED21E6643A002DF670 /* TinyJSONPath */ = {
 			isa = PBXGroup;
 			children = (
+				E11284FA21E67613002DF670 /* README.md */,
 				E11284F921E66CD8002DF670 /* LICENSE */,
 				E11284EE21E6643A002DF670 /* main.swift */,
 				E11284F521E6645D002DF670 /* TinyJSONPath.swift */,
