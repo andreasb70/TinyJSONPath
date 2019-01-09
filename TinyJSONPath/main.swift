@@ -2,7 +2,10 @@
 //  main.swift
 //  TinyJSONPath
 //
-//  Created by Andi on 09.01.19.
+//  Licensed under MIT License
+//
+//  https://github.com/andreasb70/TinyJSONPath
+//
 //  Copyright © 2019 Andreas Binner. All rights reserved.
 //
 
