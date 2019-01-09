@@ -8,23 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		E11284EF21E6643A002DF670 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11284EE21E6643A002DF670 /* main.swift */; };
+		E11284F621E6645D002DF670 /* TinyJSONPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11284F521E6645D002DF670 /* TinyJSONPath.swift */; };
+		E11284F821E667B7002DF670 /* test.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = E11284F721E66558002DF670 /* test.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		E11284E921E6643A002DF670 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				E11284F821E667B7002DF670 /* test.json in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E11284EB21E6643A002DF670 /* TinyJSONPath */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TinyJSONPath; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11284EE21E6643A002DF670 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E11284F521E6645D002DF670 /* TinyJSONPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyJSONPath.swift; sourceTree = "<group>"; };
+		E11284F721E66558002DF670 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				E11284EE21E6643A002DF670 /* main.swift */,
+				E11284F521E6645D002DF670 /* TinyJSONPath.swift */,
+				E11284F721E66558002DF670 /* test.json */,
 			);
 			path = TinyJSONPath;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E11284F621E6645D002DF670 /* TinyJSONPath.swift in Sources */,
 				E11284EF21E6643A002DF670 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
