@@ -48,7 +48,7 @@ Example
 }
 ```
 
-*address.name* will access the property "name" in the object "address" and therefore returns "John".
+`address.name` will access the property "name" in the object "address" and therefore returns "John".
 
 ### Arrays
 
@@ -69,16 +69,14 @@ Example
 }
 ```
 
-<em>animals.*.name</em> returns an array ["dog", "cat", "fish"]
-
-<em>animals.[0].name</em> returns *"dog"*
-
-<em>animals.[0,2].name</em> returns an array ["dog", "fish"]
+- `animals.*.name` returns an array ["dog", "cat", "fish"]
+- `animals.[0].name` returns *"dog"*
+- `animals.[0,2].name` returns an array ["dog", "fish"]
 
 ### Special operators
 
-- '@count" returns the number of elements in an array or the number of properies in a object
-- '@keys' returns all keys (properties) in a object
+- `@count` returns the number of elements in an array or the number of properies in a object
+- `@keys` returns all keys (properties) in a object
 
 Example
 ```
@@ -91,8 +89,6 @@ Example
 }
 ```
 
-<em>animals.@count</em> returns 3
-
-<em>animals.[0].@keys</em> returns an array ["name", "legs"]
-
-<em>animals.[0].@count</em> returns 2
+- `animals.@count` returns 3
+- `animals.[0].@keys` returns an array ["name", "legs"]
+- `animals.[0].@count` returns 2
